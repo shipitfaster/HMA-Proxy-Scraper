@@ -67,7 +67,7 @@ var getProxies = function (callback, pageNum, proxiesScraped) {
                 }
             }
 
-            console.log('collected ' + count + ' http proxies from page ' + pageNum);
+            //console.log('collected ' + count + ' http proxies from page ' + pageNum);
 
             getProxies(callback, pageNum + 1, proxiesScraped)
         }
